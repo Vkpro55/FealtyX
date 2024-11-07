@@ -176,36 +176,16 @@ Data is stored in-memory as a temporary solution. In production, this can be rep
 Use tools like Postman or curl to test the API. Example curl commands to test the endpoints:
 
 ### 1. Create a student:
-    ```json
+   ```json
     curl -X POST -H "Content-Type: application/json" -d '{"name":"John Doe","age":21,"email":"john@example.com"}' http://localhost:8080/students
-    ```
-- **Response:**
-    ```json
-    {
-        "id": 1,
-        "name": "John Doe",
-        "age": 21,
-        "email": "john@example.com"
-    }
-    ```
-
+   ```
 ### 2. Get All Students
-- **Method:** GET
-- **Endpoint:** `/students`
-- **Response:**
-    ```json
-    [
-        {
-            "id": 1,
-            "name": "John Doe",
-            "age": 21,
-            "email": "john@example.com"
-        },
-        {
-            "id": 2,
-            "name": "Jane Smith",
-            "age": 22,
-            "email": "jane@example.com"
-        }
-    ]
-    ```
+   ```json
+    curl -X GET http://localhost:8080/students
+
+   ```
+### 3. Get Student By ID
+   ```json
+    curl -X GET http://localhost:8080/students/{id}
+
+   ```
