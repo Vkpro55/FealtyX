@@ -39,6 +39,27 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
                               | + generateSummary()|
                               +-------------------+
 ```
+### 1. Sequence Diagram
+
+   ```json
+  Client              API              Ollama
+   |                  |                   |
+   |------POST-------->|                   |
+   |                  |---Create Student-->|
+   |                  |                   |
+   |<---200 OK--------|                   |
+   |                  |                   |
+   |------GET--------->|                   |
+   |                  |---Get Student----->|
+   |                  |                   |
+   |<---Student Data--|                   |
+   |                  |                   |
+   |------GET--------->|------------------>|
+   |                  |   Generate Summary|
+   |                  |                   |
+   |<---Summary------>|                   |
+
+```
     
 
 
