@@ -166,3 +166,8 @@ To integrate Ollama for generating AI-based summaries:
 ```go
 url = "http://localhost:11434/api/generate"
 response, err := http.Post(response = requests.post(url, headers=headers, data=json.dumps(data)))
+
+```
+
+## Data Storage
+Data is stored in-memory as a temporary solution. In production, this can be replaced with a database like MySQL or MongoDB.
