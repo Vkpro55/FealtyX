@@ -30,7 +30,7 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 - **Endpoint:** `/students`
 - **Request Body:**
     ```json
-  +-------------------+         +-------------------+
++-------------------+         +-------------------+
     |    Student        |         |      API          |
    +-------------------+         +-------------------+
    | - id: int         |         | + create()        |
