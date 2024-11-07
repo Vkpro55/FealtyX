@@ -5,23 +5,23 @@ This project demonstrates the creation of a simple REST API that manages student
 
 ## Table of Contents
 1. [Project Setup](#project-setup)
-2. [API Endpoints](#api-endpoints)
-3. [Ollama Integration](#ollama-integration)
-4. [Data Storage](#data-storage)
-5. [Error Handling](#error-handling)
-6. [Input Validation](#input-validation)
-7. [Concurrency](#concurrency)
-8. [How to Run the Project](#how-to-run-the-project)
-9. [Diagrams](#diagrams)
-10. [Test the API](#test-the-api)
+2. [Diagrams](#diagrams)
+3. [API Endpoints](#api-endpoints)
+4. [Ollama Integration](#ollama-integration)
+5. [Data Storage](#data-storage)
+6. [Error Handling](#error-handling)
+7. [Input Validation](#input-validation)
+8. [Concurrency](#concurrency)
+9. [How to Run the Project](#how-to-run-the-project)
+11. [Test the API](#test-the-api)
 
 ## Project Setup
-Ensure you have Go installed on your system. If not, follow the instructions [here](https://golang.org/doc/install).
+Ensure you have Python installed on your system. If not, follow the instructions.
 
 ### Steps to Set Up:
 1. Clone the repository.
-2. Run `go mod init <module-name>` to initialize the Go module.
-3. Run `go run main.go` to start the server.
+2. Create Virtual env for Project `python -m vnev .venv`.
+4. Run `python manage.py runserver` to start the server.
 
 ## Diageams
 
