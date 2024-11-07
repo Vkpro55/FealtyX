@@ -171,3 +171,41 @@ response, err := http.Post(response = requests.post(url, headers=headers, data=j
 
 ## Data Storage
 Data is stored in-memory as a temporary solution. In production, this can be replaced with a database like MySQL or MongoDB.
+
+## Test The API
+Use tools like Postman or curl to test the API. Example curl commands to test the endpoints:
+
+### 1. Create a student:
+    ```json
+    curl -X POST -H "Content-Type: application/json" -d '{"name":"John Doe","age":21,"email":"john@example.com"}' http://localhost:8080/students
+    ```
+- **Response:**
+    ```json
+    {
+        "id": 1,
+        "name": "John Doe",
+        "age": 21,
+        "email": "john@example.com"
+    }
+    ```
+
+### 2. Get All Students
+- **Method:** GET
+- **Endpoint:** `/students`
+- **Response:**
+    ```json
+    [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "age": 21,
+            "email": "john@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "age": 22,
+            "email": "jane@example.com"
+        }
+    ]
+    ```
