@@ -23,6 +23,22 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 2. Run `go mod init <module-name>` to initialize the Go module.
 3. Run `go run main.go` to start the server.
 
+## Diageams
+
+### 1. Class Diagram
+    ```json
+     +-------------------+         +-------------------+
+|    Student        |         |      API          |
++-------------------+         +-------------------+
+| - id: int         |         | + create()        |
+| - name: string    |         | + getAll()        |
+| - age: int        |         | + getById()       |
+| - email: string   |         | + update()        |
++-------------------+         | + delete()        |
+                              | + generateSummary()|
+                              +-------------------+
+
+
 ## API Endpoints
 The API exposes the following endpoints:
 
