@@ -27,7 +27,7 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 
 ### 1. Class Diagram
 
-    ```json
+   ```json
   +-------------------+         +-------------------+
   |    Student        |         |      API          |
   +-------------------+         +-------------------+
