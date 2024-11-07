@@ -31,13 +31,13 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 - **Request Body:**
     ```json
     +-------------------+         +-------------------+
-|    Student        |         |      API          |
-+-------------------+         +-------------------+
-| - id: int         |         | + create()        |
-| - name: string    |         | + getAll()        |
-| - age: int        |         | + getById()       |
-| - email: string   |         | + update()        |
-+-------------------+         | + delete()        |
+    |    Student        |         |      API          |
+   +-------------------+         +-------------------+
+   | - id: int         |         | + create()        |
+   | - name: string    |         | + getAll()        |
+   | - age: int        |         | + getById()       |
+   | - email: string   |         | + update()        |
+  +-------------------+         | + delete()        |
                               | + generateSummary()|
                               +-------------------+
 
