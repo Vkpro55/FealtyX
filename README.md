@@ -26,9 +26,7 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 ## Diageams
 
 ### 1. Class Diagram
-- **Method:** POST
-- **Endpoint:** `/students`
-- **Request Body:**
+
     ```json
   +-------------------+         +-------------------+
   |    Student        |         |      API          |
@@ -40,6 +38,7 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
   +-------------------+         | + delete()        |
                               | + generateSummary()|
                               +-------------------+
+    
 
 
 
