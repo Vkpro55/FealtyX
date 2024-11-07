@@ -39,7 +39,7 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
                               | + generateSummary()|
                               +-------------------+
 ```
-### 1. Sequence Diagram
+### 2. Sequence Diagram
 
    ```json
   Client              API              Ollama
@@ -60,9 +60,21 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
    |<---Summary------>|                   |
 
 ```
-    
+### 3. Use Case Diagram
+```json
+  +----------------------+
+|    Client/User       |
++----------------------+
+          |
+          |--- Create Student ---> [API]
+          |--- Get All Students ---> [API]
+          |--- Get Student by ID ---> [API]
+          |--- Update Student by ID ---> [API]
+          |--- Delete Student by ID ---> [API]
+          |--- Generate Summary ---> [API] ---> [Ollama]
 
 
+```
 
 ## API Endpoints
 The API exposes the following endpoints:
