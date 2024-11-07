@@ -23,7 +23,7 @@ Ensure you have Python installed on your system. If not, follow the instructions
 2. Create Virtual env for Project `python -m vnev .venv`.
 4. Run `python manage.py runserver` to start the server.
 
-## Diageams
+## Diagrams
 
 ### 1. Class Diagram
 
