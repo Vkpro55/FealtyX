@@ -26,8 +26,7 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 ## Diageams
 
 ### 1. Class Diagram
-      ```json
-       +-------------------+         +-------------------+
+      
 |    Student        |         |      API          |
 +-------------------+         +-------------------+
 | - id: int         |         | + create()        |
