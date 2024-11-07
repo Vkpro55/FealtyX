@@ -1,4 +1,4 @@
-# FealtyX - GoLang REST API for Student Management
+ # FealtyX - GoLang REST API for Student Management
 
 ## Overview
 This project demonstrates the creation of a simple REST API that manages student data (ID, Name, Age, Email). The API performs basic CRUD (Create, Read, Update, Delete) operations and integrates with the Ollama AI platform to generate summaries of student profiles.
@@ -30,13 +30,13 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 - **Endpoint:** `/students`
 - **Request Body:**
     ```json
-+-------------------+         +-------------------+
-    |    Student        |         |      API          |
-   +-------------------+         +-------------------+
-   | - id: int         |         | + create()        |
-   | - name: string    |         | + getAll()        |
-   | - age: int        |         | + getById()       |
-   | - email: string   |         | + update()        |
+  +-------------------+         +-------------------+
+  |    Student        |         |      API          |
+  +-------------------+         +-------------------+
+  | - id: int         |         | + create()        |
+  | - name: string    |         | + getAll()        |
+  | - age: int        |         | + getById()       |
+  | - email: string   |         | + update()        |
   +-------------------+         | + delete()        |
                               | + generateSummary()|
                               +-------------------+
