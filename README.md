@@ -164,4 +164,5 @@ To integrate Ollama for generating AI-based summaries:
 
 ### Example Request to Ollama API:
 ```go
-response, err := http.Post("http://localhost:11411/ask", "application/json", bytes.NewBuffer(requestBody))
+url = "http://localhost:11434/api/generate"
+response, err := http.Post(response = requests.post(url, headers=headers, data=json.dumps(data)))
