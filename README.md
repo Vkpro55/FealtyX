@@ -187,4 +187,14 @@ Use tools like Postman or curl to test the API. Example curl commands to test th
 
    ```
 
+![Screenshot (437)](https://github.com/user-attachments/assets/8e6228f3-5cd1-44aa-bdd5-d0637b3c9730)
+![Screenshot (438)](https://github.com/user-attachments/assets/a60ff7b5-ec06-4707-82d5-8113095bd017)
+![Screenshot (439)](https://github.com/user-attachments/assets/682ad514-ed0f-46cd-9a4f-50d445df262a)
+![Screenshot (441)](https://github.com/user-attachments/assets/51fb8768-4961-442c-9b84-43e616f29439)
+![Screenshot (442)](https://github.com/user-attachments/assets/a749a8d7-58c2-4b30-928a-045f63e134fe)
+![Screenshot (445)](https://github.com/user-attachments/assets/cda6cf63-5f83-4287-be65-c4557d62116b)
+
+
+
+
 
