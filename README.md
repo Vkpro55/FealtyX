@@ -9,11 +9,8 @@ This project demonstrates the creation of a simple REST API that manages student
 3. [API Endpoints](#api-endpoints)
 4. [Ollama Integration](#ollama-integration)
 5. [Data Storage](#data-storage)
-6. [Error Handling](#error-handling)
-7. [Input Validation](#input-validation)
-8. [Concurrency](#concurrency)
-9. [How to Run the Project](#how-to-run-the-project)
-11. [Test the API](#test-the-api)
+6. [How to Run the Project](#how-to-run-the-project)
+7. [Test the API](#test-the-api)
 
 ## Project Setup
 Ensure you have Python installed on your system. If not, follow the instructions.
