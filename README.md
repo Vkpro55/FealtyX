@@ -26,16 +26,15 @@ Ensure you have Go installed on your system. If not, follow the instructions [he
 ## Diageams
 
 ### 1. Class Diagram
-      
-|    Student        |         |      API          |
-+-------------------+         +-------------------+
-| - id: int         |         | + create()        |
-| - name: string    |         | + getAll()        |
-| - age: int        |         | + getById()       |
-| - email: string   |         | + update()        |
-+-------------------+         | + delete()        |
-                              | + generateSummary()|
-                              +-------------------+
+- **Method:** POST
+- **Endpoint:** `/students`
+- **Request Body:**
+    ```json
+    {
+        "name": "John Doe",
+        "age": 21,
+        "email": "john@example.com"
+    }
 
 
 ## API Endpoints
