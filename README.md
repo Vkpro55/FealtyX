@@ -183,8 +183,7 @@ Use tools like Postman or curl to test the API. Example curl commands to test th
    ```
 ### 3. Get Student By ID
    ```json
-    curl -X GET http://localhost:8080/students/{id}
-
+ curl -X GET http://localhost:8080/students/{id}
    ```
 
 ![Screenshot (437)](https://github.com/user-attachments/assets/8e6228f3-5cd1-44aa-bdd5-d0637b3c9730)
