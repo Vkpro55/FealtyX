@@ -1,0 +1,20 @@
+{
+    "67e2569c-998a-4605-a644-06b6eddcbb4d": {
+        "id": "67e2569c-998a-4605-a644-06b6eddcbb4d",
+        "name": "Gupta",
+        "email": "gupta@gmail.com",
+        "age": 22
+    },
+    "54c6d29d-b578-4e24-ac3e-f1ad26ea5f11": {
+        "id": "54c6d29d-b578-4e24-ac3e-f1ad26ea5f11",
+        "name": "Nishant",
+        "age": 22,
+        "email": "nishant@gmail.com"
+    },
+    "f6399b7e-d28d-44ee-9f3b-33fd945cbe4a": {
+        "id": "f6399b7e-d28d-44ee-9f3b-33fd945cbe4a",
+        "name": "nischal",
+        "age": 22,
+        "email": "sonit@gmail.com"
+    }
+}

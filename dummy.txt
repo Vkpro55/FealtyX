@@ -1,0 +1,30 @@
+# Create a new student
+@api_view(['POST'])
+def create_student(request):
+    # Extract the data from the request
+    name = request.data.get("name")
+    age = request.data.get("age")
+    email = request.data.get("email")
+
+    # Validation
+    try:
+        name = validate_name(name)
+        email = validate_email(email)
+    except ValueError as e:
+        return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+    # Generate a unique student ID
+    student_id = str(uuid.uuid4())  # Generate a unique ID for each student
+    
+    # Create student object
+    student = {
+        "id": student_id,
+        "name": name,
+        "age": age,
+        "email": email
+    }
+    
+    # Save to in-memory store
+    student_data[student_id] = student
+    
+    return Response(student, status=status.HTTP_201_CREATED)
